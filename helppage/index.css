@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,700&family=Spectral:ital,wght@1,400;1,500&display=swap'); 
+
+/* for the font of the application*/ 
+*{
+   box-sizing: border-box; 
+   margin: 0; 
+   font-family: 'Poppins', sans-serif;  
+}
+
+.showcase{
+    position: absolute;
+    right: 0; 
+    width: 100%; 
+    min-height: 100vh; 
+    padding: 100px; 
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center;
+    z-index: 1; 
+    transition: 0.8s; 
+}
+
