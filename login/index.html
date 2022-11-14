@@ -1,0 +1,55 @@
+<!DOCTYPE html> <!--use HTML version-->
+<htlm lang ="en" ng-app="app"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vireport"content="width=device-width, initial-scale=1.0">
+
+        <!--insert CSS file-->
+        <link rel="stylesheet" href="index.css"> 
+
+        <!--fonts for the page -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,300&display=swap" rel="stylesheet">
+    
+        <div class="tittle">
+        <title>Login Page</title> <!--tittlw that show in the link/tab-->
+        </div>
+
+
+    </head>
+
+    <body> 
+        <script src="test.js"></script>
+        <section class="showcase">
+            <header>
+                <h1 class="logo"> LOGIN</h1>
+            </header>
+            <!--keys for login page-->
+            <div class="container">
+                <div  class="output">
+                    <div class="login_display"></div> <!--display the number on the screen-->
+                <div class="keys">
+                    <input type="button" onclick="display(event)" value="7"> 
+                    <input type="button" onclick="display(event)" value="8">
+                    <input type="button" onclick="display(event)" value="9"> <br>
+                    <input type="button" onclick="display(event)" value="4">
+                    <input type="button" onclick="display(event)" value="5">
+                    <input type="button" onclick="display(event)" value="6"> <br>
+                    <input type="button" onclick="display(event)" value="3">
+                    <input type="button" onclick="display(event)" value="2">
+                    <input type="button" onclick="display(event)" value="1"> <br>
+                    <input type="button" 
+                            onclick="delete_value()" 
+                            value="X">
+                    <input type="button" value="0">
+                    <input type="button" 
+                            onclick="check_id()"
+                            value="ENTER">
+                </div> <!--end of class key-->
+                </div> <!--end of class login -->
+            </div><!--end of class container-->
+
+        </section>
+    </body>
+</htlm>
